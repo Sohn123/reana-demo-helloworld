@@ -8,6 +8,8 @@ inputs:
 workflow:
   type: cwl
   file: workflow/cwl/helloworld-htcondorcern.cwl
+  files:
+    - workflow/cwl/helloworld.tool
 outputs:
   files:
     - results/greetings.txt
