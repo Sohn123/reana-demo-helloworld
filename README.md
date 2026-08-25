@@ -179,7 +179,7 @@ $ # install REANA client
 $ pip install reana-client
 $ # connect to some REANA cloud instance (e.g CERN instance)
 $ export REANA_SERVER_URL=https://reana.cern.ch/
-$ export REANA_ACCESS_TOKEN=XXXXXXX
+$ reana-client login
 $ # create a new workflow
 $ reana-client create -n myanalysis
 $ export REANA_WORKON=myanalysis
